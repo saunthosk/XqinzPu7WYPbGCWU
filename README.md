@@ -12,6 +12,7 @@ TIMIT Dataset:
 The TIMIT corpus of read speech is designed to provide speech data for acoustic-phonetic studies and for the development and evaluation of automatic speech recognition systems. TIMIT contains a total of 6300 sentences, 10 sentences spoken by each of 630 speakers from 8 major dialect regions of the United States.
 #CommonVoice Dataset:
 Common Voice is part of Mozilla's initiative to help teach machines how real people speak. Common Voice is a corpus of speech data read by users on the Common Voice website (https://commonvoice.mozilla.org/), and based upon text from a number of public domain sources like user submitted blog posts, old books, movies, and other public speech corpora. Its primary purpose is to enable the training and testing of automatic speech recognition (ASR) systems.
+
 **Methdology**
 
 A machine learning system is created to detect if a spoken audio is synthetically generated or not. For that we build a voice cloning system given a speaker’s spoken audio that clones the source speaker’s voice to the target speaker’s voice. We are using TIMIT dataset for this and we use voice cloning functions to create synthetic voices.
