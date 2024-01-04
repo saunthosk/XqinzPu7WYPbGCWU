@@ -1,4 +1,5 @@
-**VCFAD - Voice Cloning and Fake Audio Detection**
+# VCFAD - Voice Cloning and Fake Audio Detection
+
 Background:
 We are a technology company working in the Cyber Security industry. We focus on building systems that help individuals and organizations to have safe and secure digital presence by providing cutting edge technologies to our customers. We create products and services that ensure our customers security using data driven technologies to understand whether audio and video media is authentic or fake.
 Our goal in this project is to build algorithms that can synthesize spoken audio by converting a speaker’s voice to another speaker’s voice with the end goal to detect if any spoken audio is pristine or fake.
@@ -13,7 +14,6 @@ Build a machine learning system to detect if a spoken audio is synthetically gen
 For the voice cloning system (VC), you can utilize the TIMIT dataset as it consists of aligned text-audio data with various speakers. For the fake audio detection system (FAD) you can utilize the CommonVoice dataset as it consists of thousands of naturally spoken audio which could be used as golden spoken audio by humans as positive examples and creating negative examples using the voice cloning system as automatic data/label generator. Since the CommonVoice English dataset is large, you can use a subset of it by sampling the dataset.
 
 
-# Project Title
 
 Brief description of your project.
 
